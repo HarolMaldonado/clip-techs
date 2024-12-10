@@ -1,0 +1,96 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+/* Contenedores */
+.container {
+    margin-top: 50px;
+}
+
+h2, h3 {
+    color: #343a40;
+}
+
+/* Tarjetas de los servicios */
+.card {
+    margin-top: 20px;
+}
+
+.card-title {
+    color: #485c70;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Estilo para los botones */
+.btn-primary {
+    background-color: #fcfcfc;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #414344;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+/* Estilo adicional para la sección de consultas */
+#consultas {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #consultas h2 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  #consultas ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #consultas li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  #consultas li strong {
+    color: #000;
+  }
+
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }

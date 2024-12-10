@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip tecs sistem</title>
+    <!-- Vinculando el CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Vinculando el CSS de la página -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Animaciones de AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #333;">
+        <a class="navbar-brand text-white" href="#">Clip tecs sistem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#about">Sobre Nosotros</a>
+                </li>
+
+           
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#services">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="login.html">Iniciar sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="register.html">Registrarse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="evidencia.html">Evidencia</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Principal de la Página -->
+    <header class="hero bg-primary text-white text-center py-5" data-aos="fade-in">
+        <h1 class="display-4">Bienvenidos a Clip Techs Sistem</h1>
+        <p class="lead">Ofrecemos las mejores soluciones tecnológicas para tu negocio</p>
+        <a href="login.html" class="btn btn-light btn-lg" role="button">Iniciar sesión</a>
+    </header>
+
+    <!-- Sobre Nosotros -->
+    <section id="about" class="container py-5" data-aos="fade-up">
+        <h2 class="text-center mb-4">Sobre Nosotros</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Somos una empresa enfocada en ofrecer soluciones tecnológicas de calidad para facilitar el desarrollo
+                    de negocios. Nuestro equipo está comprometido en crear plataformas innovadoras que mejoren la experiencia
+                    de usuario y optimicen los procesos.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/logo.png" alt="Sobre Nosotros" class="img-fluid rounded" width="100" height="80">
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+<section id="services" class="bg-light py-5" data-aos="fade-up">
+    <h2 class="text-center mb-4">Nuestros Servicios</h2>
+    <div class="row">
+        <!-- Primer servicio -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="images/gestion.jpg" class="card-img-top" alt="Gestión de Cuentas" width="400" height="350">
+                <div class="card-body">
+                    <h5 class="card-title">Gestión de Cuentas</h5>
+                    <p class="card-text">Permite gestionar la información de usuario de manera fácil y segura.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Segundo servicio -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="images/service2.png" class="card-img-top" alt="Soporte al Cliente" width="400" height="350">
+                <div class="card-body">
+                    <h5 class="card-title">Soporte al Cliente</h5>
+                    <p class="card-text">Ofrecemos atención personalizada 24/7 para resolver cualquier inconveniente.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tercer servicio -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="images/analisis.jpg" class="card-img-top" alt="Análisis de Datos" width="400" height="350">>
+                <div class="card-body">
+                    <h5 class="card-title">Análisis de Datos</h5>
+                    <p class="card-text">Generamos informes y análisis detallados para que tomes decisiones informadas.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sección de Consultas -->
+        </div>
+</section>
+
+
+    <!-- Contacto -->
+    <section id="contact" class="container py-5" data-aos="fade-up">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <p class="text-center">¿Tienes alguna pregunta o inquietud? No dudes en contactarnos.</p>
+        <p class="text-center"><strong>Email:</strong> <a href="mailto:harolmaldonado14@gmail.com">harolmaldonado14@gmail.com</a></p>
+        <p class="text-center"><strong>Teléfono:</strong> +57 3017678950</p>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Clip Tecs Sistems | Todos los derechos reservados</p>
+    </div>
+
+    <!-- Scripts de Bootstrap y AOS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
